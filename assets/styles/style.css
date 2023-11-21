@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Gilroy-Semibold";
+    src: url("../fonts/gilroy-semibold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/gilroy-bold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/gilroy-medium.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url("../fonts/gilroy-regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu-item {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.menu-item1 {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.intro {
+    display: flex;
+    gap: 39px;
+    margin-top: 160px;
+    width: 1170px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.intro-title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.intro-text {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.intro-button1 {
+    padding: 15px 30px;
+    border-radius: 50px;
+    background-color: #F25822;
+    border: none;
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+}
+.intro-button {
+    padding: 15px 30px;
+    border: none;
+    background-color: #FFFFFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.intro-button-wrapper {
+    display: flex;
+    gap: 72px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
