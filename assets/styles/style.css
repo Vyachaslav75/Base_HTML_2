@@ -39,12 +39,13 @@ ul {
     justify-content: space-between;
     width: 1170px;
     margin: 0 auto;
+    height: 100px;
+    align-items: center;
 }
 .menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
     list-style: none;
     gap: 20px;
 }
@@ -123,6 +124,7 @@ ul {
 }
 
 .logos {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     gap: 48px;
